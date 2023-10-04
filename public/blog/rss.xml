@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Blogs </title>
+    <description>Blogs  Feed</description>
+    <link></link>
+    <pubDate>Wed, 04 Oct 2023 10:01:10 GMT</pubDate>
+    <atom:link href="/blog/rss.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title>Indonesia Mountain Tourism Conference Jadi Momen Promosi Wisata Pegunungan Tanah Air</title>
+            
+            <media:content url="/assets/external/650bccf83a4c28d2cfcf236c_loocale-blog-thumbnail-1.jpg" medium="image"/>
+            
+            <link>/blog/siaran-pers-indonesia-mountain-tourism-conference-jadi-momen-promosi-wisata-pegunungan-tanah-air/</link>
+            <pubDate>Wed, 04 Oct 2023 10:01:10 GMT</pubDate>
+            <guid>/blog/siaran-pers-indonesia-mountain-tourism-conference-jadi-momen-promosi-wisata-pegunungan-tanah-air/</guid>
+            
+            <description>Kementerian Pariwisata dan Ekonomi Kreatif/Badan Pariwisata dan Ekonomi Kreatif (Menparekraf/Kabaparekraf) mendukung pelaksanaan 1st Indonesia Mountain Tourism Conference (IMTC) sebagai upaya mempromosikan potensi wisata pegunungan yang ada di Indonesia.</description>
+            
+        </item>
+  </channel>
+</rss>

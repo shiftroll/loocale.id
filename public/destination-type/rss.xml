@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Destination Types </title>
+    <description>Destination Types  Feed</description>
+    <link></link>
+    <pubDate>Wed, 04 Oct 2023 10:01:10 GMT</pubDate>
+    <atom:link href="/destination-type/rss.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title>Services</title>
+            
+            <link>/destination-type/services/</link>
+            <pubDate>Wed, 04 Oct 2023 10:01:10 GMT</pubDate>
+            <guid>/destination-type/services/</guid>
+            
+            <content type="html"></content>
+            
+        </item>
+        <item>
+            <title>Places</title>
+            
+            <link>/destination-type/places/</link>
+            <pubDate>Wed, 04 Oct 2023 10:01:10 GMT</pubDate>
+            <guid>/destination-type/places/</guid>
+            
+            <content type="html"></content>
+            
+        </item>
+        <item>
+            <title>Experiences</title>
+            
+            <link>/destination-type/experiences/</link>
+            <pubDate>Wed, 04 Oct 2023 10:01:10 GMT</pubDate>
+            <guid>/destination-type/experiences/</guid>
+            
+            <content type="html"></content>
+            
+        </item>
+  </channel>
+</rss>

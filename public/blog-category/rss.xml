@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Blog Categories </title>
+    <description>Blog Categories  Feed</description>
+    <link></link>
+    <pubDate>Wed, 04 Oct 2023 10:01:10 GMT</pubDate>
+    <atom:link href="/blog-category/rss.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title>Siaran Pers</title>
+            
+            <link>/blog-category/siaran-pers/</link>
+            <pubDate>Wed, 04 Oct 2023 10:01:10 GMT</pubDate>
+            <guid>/blog-category/siaran-pers/</guid>
+            
+            <content type="html"></content>
+            
+        </item>
+  </channel>
+</rss>
