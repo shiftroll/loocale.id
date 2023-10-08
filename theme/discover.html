@@ -58,6 +58,16 @@ body{
         vertical-align: middle;
         display: inline-block; }</style></head>
 <body class="body">
+  <div class="right-side-floating">
+    <div class="ask-expert-info">
+      <div class="div-block-121">
+        <div class="ask-our-expert-floating">{{ texts.7f2746de }}</div>
+      </div>
+    </div>
+    <div data-w-id="d17706d4-ff32-4f79-6209-fbf1ff7dc160" class="ask-expert-floating-button">
+      <a data-w-id="d17706d4-ff32-4f79-6209-fbf1ff7dc161" href="{{ links.2dfea8a8 }}" target="_blank" class="ask-expert-link w-inline-block">{%- image images.-533b11c2.url, images.-533b11c2.alt, '[]', 'loading="eager" class="ask-icon"' -%}</a>
+    </div>
+  </div>
   <div style="background-color:rgba(238,238,238,0);border-color:rgba(221,221,221,0)" class="navbar-no-shadow-black">
     <div data-animation="default" data-collapse="medium" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="navbar-no-shadow-container-black w-nav">
       <div class="container-regular">
@@ -203,7 +213,7 @@ a { color: inherit; }
                         {%- unless collection.length == 0 -%}<div fs-cmsfilter-element="list" fs-cmsload-element="list" role="list" class="discover-grid w-dyn-items">
                           {%- for item in collection -%}<div id="w-node-bb1ef7c0-79ab-8276-bb5c-24c97ae333e2-221bfc7d" data-w-id="bb1ef7c0-79ab-8276-bb5c-24c97ae333e2" role="listitem" class="explore-item partner w-dyn-item">
                             <a href="{{ item.data.f_discover-guidebook }}" class="discover-tile w-inline-block">
-                              <div class="discover-tile-content">{%- image images.0.url, images.0.alt, '[]', 'loading="eager" class="tile-bg guidebook"' -%}
+                              <div class="discover-tile-content">{%- image item.data.f_discover-guidebook-thumbnail.url, item.data.f_discover-guidebook-thumbnail.alt, '[]', 'loading="eager" class="tile-bg guidebook"' -%}
                                 <div class="location-div">
                                   <div fs-cmsfilter-field="province" class="province white">{{ texts.7635fb4f }}</div>
                                 </div>
@@ -218,7 +228,7 @@ a { color: inherit; }
                               </div>
                               <div class="div-block-19">
                                 <div class="discover-head white">{{ texts.3438268a }}</div>
-                                <div class="discover-title white"></div>
+                                <div class="discover-title white">{{ item.data.title }}</div>
                                 {%- assign provinsiOfLocation = item.data.f_provinsi-2 | resolveReference -%}<div fs-cmsfilter-field="province" class="discover-subtitle white">{{ provinsiOfLocation.data.title }}</div>
                               </div>
                             </a>

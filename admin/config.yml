@@ -2350,6 +2350,13 @@ collections:
             label: Link
             name: '23'
             widget: string
+          - hint: >-
+              Original link:
+              https://wa.me/628111722233?text=Halo,%20saya%20dapat%20info%20dari%20@loocale.id%20dan%20punya%20pertanyaan,
+              key: 2dfea8a8
+            label: Link
+            name: 2dfea8a8
+            widget: string
           - hint: 'Original link: https://www.instagram.com/loocale.id, key: 7a427516'
             label: Link
             name: 7a427516
@@ -2378,13 +2385,6 @@ collections:
               key: -1d2d6073
             label: Link
             name: '-1d2d6073'
-            widget: string
-          - hint: >-
-              Original link:
-              https://wa.me/628111722233?text=Halo,%20saya%20dapat%20info%20dari%20@loocale.id%20dan%20punya%20pertanyaan,
-              key: 2dfea8a8
-            label: Link
-            name: 2dfea8a8
             widget: string
       - label: Images
         name: images
@@ -2422,6 +2422,19 @@ collections:
                 required: false
           - label: Image
             name: '-3338355b'
+            widget: object
+            fields:
+              - name: url
+                label: Image Url
+                widget: image
+                allow_multiple: false
+                required: false
+              - name: alt
+                label: Image Alt
+                widget: string
+                required: false
+          - label: Image
+            name: '-533b11c2'
             widget: object
             fields:
               - name: url
@@ -2552,19 +2565,6 @@ collections:
                 required: false
           - label: Image
             name: 62eab8b4
-            widget: object
-            fields:
-              - name: url
-                label: Image Url
-                widget: image
-                allow_multiple: false
-                required: false
-              - name: alt
-                label: Image Alt
-                widget: string
-                required: false
-          - label: Image
-            name: '0'
             widget: object
             fields:
               - name: url

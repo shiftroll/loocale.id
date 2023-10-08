@@ -4,13 +4,13 @@
     <title>Destination Types </title>
     <description>Destination Types  Feed</description>
     <link></link>
-    <pubDate>Wed, 04 Oct 2023 10:01:10 GMT</pubDate>
+    <pubDate>Sun, 08 Oct 2023 08:49:48 GMT</pubDate>
     <atom:link href="/destination-type/rss.xml" rel="self" type="application/rss+xml"/>
         <item>
             <title>Services</title>
             
             <link>/destination-type/services/</link>
-            <pubDate>Wed, 04 Oct 2023 10:01:10 GMT</pubDate>
+            <pubDate>Sun, 08 Oct 2023 08:49:48 GMT</pubDate>
             <guid>/destination-type/services/</guid>
             
             <content type="html"></content>
@@ -20,7 +20,7 @@
             <title>Places</title>
             
             <link>/destination-type/places/</link>
-            <pubDate>Wed, 04 Oct 2023 10:01:10 GMT</pubDate>
+            <pubDate>Sun, 08 Oct 2023 08:49:48 GMT</pubDate>
             <guid>/destination-type/places/</guid>
             
             <content type="html"></content>
@@ -30,7 +30,7 @@
             <title>Experiences</title>
             
             <link>/destination-type/experiences/</link>
-            <pubDate>Wed, 04 Oct 2023 10:01:10 GMT</pubDate>
+            <pubDate>Sun, 08 Oct 2023 08:49:48 GMT</pubDate>
             <guid>/destination-type/experiences/</guid>
             
             <content type="html"></content>
